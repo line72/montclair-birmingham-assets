@@ -26,7 +26,7 @@ CONFIG = transmogrifier.Config(
     ),
     android_config = transmogrifier.MontclairAndroidConfig(
         version = '1.2.0',
-        revision = 1,
+        revision = 2,
         app_id = 'com.gotransitapp.birmingham',
         play_store_url = 'https://play.google.com/store/apps/details?id=com.gotransitapp.birmingham'
     )
