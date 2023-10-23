@@ -18,6 +18,10 @@ class Configuration {
     constructor() {
         // Birmingham, AL
         this.center = [33.5084801, -86.8006611];
+        this.tileserver = {
+            url: 'https://birmingham.gotransitapp.com/tiles/{z}/{x}/{y}.png',
+            subdomains: ''
+        };
 
         this.agencies = [
             {
